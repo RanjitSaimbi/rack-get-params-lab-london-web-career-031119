@@ -24,7 +24,11 @@ class Application
   end
 
   def cart_handler 
-    
+    if 
+      
+    else 
+      
+    end 
   end 
 
   def handle_search(search_term)
