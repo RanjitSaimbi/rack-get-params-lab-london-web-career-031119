@@ -27,13 +27,6 @@ class Application
     resp.finish
   end
 
-  def cart_handler 
-    if @@cart.any? 
-      @@cart.each {|item| resp.write "#{item}\n"}
-    else 
-      resp.write "Your cart is empty"
-    end 
-  end 
 
   def handle_search(search_term)
     if @@items.include?(search_term)
