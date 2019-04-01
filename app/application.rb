@@ -25,7 +25,7 @@ class Application
 
   def cart_handler 
     if 
-      
+      @@cart.each {|item| resp.write "#{item}\n"}
     else 
       
     end 
